@@ -163,7 +163,7 @@ li a:hover {
 	margin-top: 40px;
 }
 p {
-	line-height: 30px;
+	line-height: 38px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -203,6 +203,15 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
+	.gridmenu {
+		width:100%;
+	}
+	.gridmain {
+		width:100%;
+	}
+	.gridright {
+		width:100%;
+	}
 	.work {
 
 		padding-left: 0;
@@ -236,3 +245,68 @@ input[type=submit] {
 		height: 200px;
 	}
 }
+@media only screen and (max-width: 768px) {
+	.gridmenu {
+		width:100%;
+	}
+	.gridmain {
+		width:100%;
+	}
+	.gridright {
+		width:100%;
+	}	
+	body {
+		width: 768px;
+	}
+	h1 {
+		left: 20px;
+	}
+	.portfolio {
+		width: 728px;
+		margin: 20px;
+
+	}
+	ul {
+		margin-right: 170px;
+	}
+	#sidebar2 {
+		margin: 20px;
+		width: 728px;
+	}
+	#image1 , #image3 , #image5 {
+		margin-right: 125px;
+	}
+	#contentsection {
+		width: 728px;
+		margin: 20px;
+	}
+	.portfoliopic {
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+	#contentheader {
+		width: 728px;
+		margin: 20px;
+	}
+	.message {
+		width: 668px;
+	}
+	#text {
+		width: 668px;
+	}
+}
+@media only screen and (max-width: 640px) {
+	h1 {
+		left: 0;
+		width: 640px;
+		text-align: center;
+	}
+	body {
+		width: 640px;
+	}
+	.navbar {
+		margin: 0;
+	}
+	}
+}
+
