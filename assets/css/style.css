@@ -180,6 +180,8 @@ p {
 }
 #image1 , #image2 , #image3 , #image4 , #image5 {
 	margin: 20px;
+	width:250px; 
+	height:180px;
 
 }
 .work {
@@ -296,17 +298,34 @@ input[type=submit] {
 	}
 }
 @media only screen and (max-width: 640px) {
-	h1 {
+	/*h1 {
 		left: 0;
 		width: 640px;
-		text-align: center;
-	}
+		text-align: center; */
+	
 	body {
 		width: 640px;
+	} 
+	.portfolio {
+		width: 600px;
 	}
-	.navbar {
-		margin: 0;
+	ul {
+		margin-right: 330px;
 	}
+	#contentsection {
+		width: 600px;
+	}
+	#sidebar2 {
+		width: 600px;
+	}
+	#contentheader {
+		width: 600px;
+	}
+	.message {
+		width: 540px;
+	}
+	#text {
+		width: 540px;
 	}
 }
 
