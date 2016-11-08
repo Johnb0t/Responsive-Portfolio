@@ -40,6 +40,15 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+/*header a#logo {
+	display: inline-block;
+	padding: 25px;
+}
+header ul {
+	float: right;
+}*/
+
 h1 {
 	position: absolute;
 	background: #4aaaa5;
@@ -257,15 +266,19 @@ input[type=submit] {
 	.gridright {
 		width:100%;
 	}	
-	body {
+/*	body {
 		width: 768px;
+	}*/
+	.container2{
+		width: 100%;
+		margin: 0 auto;
 	}
 	h1 {
 		left: 20px;
 	}
 	.portfolio {
-		width: 728px;
-		margin: 20px;
+		width: 95%;
+		/*margin: 20px;*/
 
 	}
 	ul {
@@ -273,13 +286,13 @@ input[type=submit] {
 	}
 	#sidebar2 {
 		margin: 20px;
-		width: 728px;
+		width: 95%;
 	}
 	#image1 , #image3 , #image5 {
 		margin-right: 125px;
 	}
 	#contentsection {
-		width: 728px;
+		width: 95%;
 		margin: 20px;
 	}
 	.portfoliopic {
@@ -287,7 +300,7 @@ input[type=submit] {
 		margin-top: 20px;
 	}
 	#contentheader {
-		width: 728px;
+		width: 100%;
 		margin: 20px;
 	}
 	.message {
@@ -303,29 +316,35 @@ input[type=submit] {
 		width: 640px;
 		text-align: center; */
 	
-	body {
+/*	body {
 		width: 640px;
-	} 
+	} */
+/*	.container2 {
+		width: 100%
+	}*/
 	.portfolio {
-		width: 600px;
+		width: 95%;
 	}
 	ul {
 		margin-right: 330px;
 	}
 	#contentsection {
-		width: 600px;
+		width: 95%;
 	}
-	#sidebar2 {
+/*	#sidebar2 {
 		width: 600px;
 	}
 	#contentheader {
 		width: 600px;
-	}
+	}*/
 	.message {
 		width: 540px;
 	}
 	#text {
 		width: 540px;
 	}
+/*	li a {
+		display: inline-block;
+	}*/
 }
 
